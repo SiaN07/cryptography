@@ -1,0 +1,8 @@
+from Crypto.Util.number import *
+
+base_10 = 11515195063862318899931685488813747395775516287289682636499965282714637259206269
+byts = long_to_bytes(base_10)
+
+
+print(byts)
+print(txt_long)
